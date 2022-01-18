@@ -8,3 +8,6 @@ the sotrys are still being made and the link to the projects being added
 <img src="https://i.imgur.com/DLPkOdt.png"/>
 <img src="https://i.imgur.com/3e7Bday.png"/>
 <img src="https://i.imgur.com/Df4Rf2B.png"/>
+
+
+<h2>All images are copyrighted to their creator.</h2>
