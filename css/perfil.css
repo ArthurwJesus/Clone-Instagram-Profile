@@ -21,8 +21,8 @@
     margin-top: 20%;
     margin-left: 25%;
     margin-bottom: 0.5%;
-    width: 180px;
-    height: 180px;
+    width: 60%;
+    height: 60%;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(1, 1, 1, 1);
 }
@@ -31,7 +31,8 @@
     font-size: 1em;
 }
 .bio{
-    margin-left: -2em;
+    margin-left: -1em;
+    padding: 1em;
 }
 .cont{
     margin-top: 10%;
@@ -41,12 +42,52 @@
 
 .circleSkill{
     margin-top: 5%;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-bottom: 0.5%;
-    width: 7%;
-    height: 7%;
+    width: 6%;
+    height: 6%;
     border-radius: 50%;
-    border: 2px solid red;
+    border: 2px solid rgba(12, 12, 12, 0.226);
+}
+.Forma{
+    margin-top: 2%;
+    width: 30%;
+    height: 20%;
+    margin-left: 2%;
+    border-radius: 20%;
+}
+.certi{
+    margin-top: 20%;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+}
+.certiUPF{
+    margin-top: 20%;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+.certiGo{
+    margin-top: 20%;
+    width: 80%;
+    height:80%;
+    margin-left: 5%;
+    border-radius: 50%
+}
+.certiPy{
+    margin-top: 20%;
+    width: 90%;
+    height:90%;
+    margin-left: 5%;
+    border-radius: 50%
+}
+.tituloCursos{
+    margin-top: 5%;
+}
+.stars{
+    margin-top: -10%;
 }
 .img-post{
     width: 350px;
@@ -139,7 +180,7 @@
             margin-left: -90%;
             margin-bottom: 0.5%;
             width:410%;
-            height: 50%;
+            height: 40%;
             border-radius: 50%;
             box-shadow: 0 0 5px rgba(1, 1, 1, 1);
         }
@@ -176,4 +217,176 @@
         .perfil{
             margin-top: 20%;
         }
+}
+
+@media screen and (width:540px){
+    .circle{
+        margin-top: 10%;
+        margin-left: -90%;
+        margin-bottom: 0.5%;
+        width:250%;
+        height: 40%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+    .img-post{
+        width: 350px;
+        height:520px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (width:1024px){
+    .circle{
+        margin-top: 50%;
+        margin-left:-60%;
+        margin-bottom: 0.5%;
+        width:150%;
+        height: 70%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+}
+
+@media screen and (width:1280px){
+    .circle{
+        margin-top: 50%;
+        margin-left: -40%;
+        margin-bottom: 0.5%;
+        width:110%;
+        height: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+}
+
+
+@media screen and (width:280px){
+    .circle{
+        margin-top: 60%;
+        margin-left: -40%;
+        margin-bottom: 0.5%;
+        width: 600%;
+        height: 30%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+
+    .circleSkill{
+        margin-top: 5%;
+        margin-left: 2px;
+        margin-bottom: 0.5%;
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
+}
+
+@media screen and (width:912px){
+    .circle{
+        margin-top: 50%;
+        margin-left: -30%;
+        margin-bottom: 0.5%;
+        width:130%;
+        height: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+    .circleSkill{
+        margin-top: 5%;
+        margin-left: 2px;
+        margin-bottom: 0.5%;
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
+    .img-post{
+        width: 450px;
+        height:520px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (width:768px) {
+    .circle{
+        margin-top: 50%;
+        margin-left: -30%;
+        margin-bottom: 0.5%;
+        width:130%;
+        height: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+    .img-post{
+        width: 450px;
+        height:420px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    .circleSkill{
+        margin-top: 5%;
+        margin-left: 2px;
+        margin-bottom: 0.5%;
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
+}
+
+@media screen and (width:820px) {
+    .circle{
+        margin-top: 50%;
+        margin-left: -30%;
+        margin-bottom: 0.5%;
+        width:130%;
+        height: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+    .img-post{
+        width: 450px;
+        height:420px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    .circleSkill{
+        margin-top: 5%;
+        margin-left: 2px;
+        margin-bottom: 0.5%;
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
+}
+@media screen and (width:412px) {
+    .circle{
+        margin-top: 30%;
+        margin-left: -30%;
+        margin-bottom: 0.5%;
+        width:320%;
+        height: 40%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(1, 1, 1, 1);
+    }
+    .img-post{
+        width: 450px;
+        height:420px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    .circleSkill{
+        margin-top: 5%;
+        margin-left: 2px;
+        margin-bottom: 0.5%;
+        width: 27%;
+        height: 19%;
+        border-radius: 50%;
+        border: 2px solid red;
+    }
 }
